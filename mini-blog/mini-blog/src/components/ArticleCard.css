@@ -1,0 +1,37 @@
+.article-card {
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  transition: box-shadow 0.2s, transform 0.15s;
+}
+.article-card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.08); transform: translateY(-2px); }
+
+.article-card-title a {
+  color: #1e293b;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+}
+.article-card-title a:hover { color: #2563eb; }
+
+.article-card-excerpt { color: #6b7280; font-size: 14px; line-height: 1.6; }
+
+.article-card-meta {
+  display: flex;
+  gap: 16px;
+  font-size: 12px;
+  color: #9ca3af;
+}
+
+.article-card-link {
+  color: #2563eb;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 600;
+  align-self: flex-start;
+}
+.article-card-link:hover { text-decoration: underline; }

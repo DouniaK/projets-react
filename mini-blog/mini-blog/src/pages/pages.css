@@ -1,0 +1,62 @@
+.page { width: 100%; }
+.page-center { display: flex; justify-content: center; align-items: flex-start; padding-top: 40px; }
+.page-title { font-size: 26px; font-weight: 700; color: #1e293b; margin-bottom: 24px; }
+.page-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 24px; }
+
+/* GRID */
+.articles-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px; }
+
+/* AUTH */
+.auth-card {
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  padding: 36px;
+  width: 100%;
+  max-width: 420px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.06);
+}
+.auth-form { display: flex; flex-direction: column; gap: 16px; margin: 20px 0 16px; }
+.auth-form .form-field { display: flex; flex-direction: column; gap: 6px; }
+.auth-form label { font-size: 13px; font-weight: 600; color: #374151; }
+.auth-form input {
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  padding: 10px 14px;
+  font-size: 15px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+.auth-form input:focus { border-color: #2563eb; }
+.auth-switch { font-size: 13px; color: #6b7280; text-align: center; }
+.auth-switch a { color: #2563eb; text-decoration: none; font-weight: 600; }
+.auth-hint { font-size: 12px; color: #9ca3af; text-align: center; margin-top: 10px; }
+
+/* ALERTS */
+.alert-error {
+  background: #fee2e2;
+  color: #b91c1c;
+  border: 1px solid #fecaca;
+  border-radius: 8px;
+  padding: 10px 14px;
+  font-size: 13px;
+  margin-bottom: 8px;
+}
+
+/* ARTICLE DETAIL */
+.article-detail { background: white; border: 1px solid #e5e7eb; border-radius: 14px; padding: 36px; }
+.article-detail-title { font-size: 28px; font-weight: 700; color: #1e293b; margin-bottom: 12px; }
+.article-detail-meta { display: flex; gap: 20px; font-size: 13px; color: #9ca3af; margin-bottom: 24px; padding-bottom: 20px; border-bottom: 1px solid #f3f4f6; }
+.article-detail-content { font-size: 16px; line-height: 1.8; color: #374151; white-space: pre-wrap; }
+.article-actions { display: flex; gap: 10px; margin-top: 28px; padding-top: 20px; border-top: 1px solid #f3f4f6; }
+
+.back-link { display: inline-block; color: #6b7280; text-decoration: none; font-size: 14px; margin-bottom: 20px; }
+.back-link:hover { color: #2563eb; }
+
+/* 404 */
+.not-found { text-align: center; padding: 60px 20px; }
+.not-found-code { font-size: 80px; font-weight: 800; color: #e5e7eb; }
+.not-found-msg { font-size: 20px; color: #6b7280; margin: 12px 0 28px; }
+
+/* EMPTY */
+.empty { color: #9ca3af; font-size: 15px; text-align: center; padding: 40px; }
